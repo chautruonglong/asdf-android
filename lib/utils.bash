@@ -33,7 +33,7 @@ list_github_tags() {
 list_all_versions() {
 	# TODO: Adapt this. By default we simply list the tag names from GitHub releases.
 	# Change this function if android has other means of determining installable versions.
-	list_github_tags
+	echo "w"
 }
 
 download_release() {
